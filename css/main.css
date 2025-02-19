@@ -1,0 +1,15 @@
+html,body {
+     font-family: Charter, "Linux Libertine", Georgia, serif;
+     font-style: normal;
+}
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-body: #593954;
+    }
+   li a { color: white; }
+  }
+
+ ul { list-style: none; padding:0px; } li { text-transform: uppercase; display: inline-block }
+li a { text-decoration: none; padding: 0.1em 0.3em; }
+li a.selected { text-decoration: underline  }
