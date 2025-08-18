@@ -6,3 +6,5 @@ h1, h2, h3 { color: var(--text-main); }
 ul { list-style: none; padding:0px; } ul.nav li { text-transform: uppercase; display: inline-block }
 ul.nav li a, ul.nav li a:hover { text-decoration: none; padding: 0.1em 0.3em; color: var(--text-main) }
 ul.nav li a.selected { text-decoration: underline  }
+center ol {	 width:60% }
+center ol li { text-align: left }
